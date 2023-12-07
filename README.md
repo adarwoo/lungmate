@@ -2,7 +2,7 @@
 
 Guillaume Arreckx (United Kingdom)
 
-** This was automatically translated from French **
+**This was automatically translated from French**
 
 This project should delight carpentry workshop owners who use
 woodworking machinary with a chip dust extractor. Thanks to the
