@@ -1,0 +1,8 @@
+Things left to do
+-------------------------------------
+
+1 - Is there a bug with the console when entering a number with many del etc..
+2 - The serial port only works at 19200. Check offset value.
+    Re-test with new board using a crysal
+
+

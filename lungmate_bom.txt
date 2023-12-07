@@ -1,0 +1,39 @@
+Partlist exported from C:/Users/gpa/Documents/dev/lungmate/eagle/lungmate.sch at 26/01/2010 20:32:36
+
+Qty Value     Device               Parts                      
+1   1u        C-EUC0603K           C10                        
+3   2u2       CPOL-EUSMCA          C12, C13, C16              
+1   4k7       R-EU_R0603           R7                         
+2   4n7       C-EUC0603K           C7, C19                    
+1   8.192MHz  CRYSTALHC49UP        Q2                         
+1   10 1/4W   R-EU_R1210           R18                        
+6   10k       R-EU_R0603           R5, R10, R12, R13, R14, R15
+1   10n       C-EUC0603K           C2                         
+1   10u       L-EUL1210            L1                         
+2   22p       C-EUC0603K           C20, C21                   
+1   29k4      R-EU_R0603           R3                         
+1   42k2      R-EU_R0603           R1                         
+1   47k5      R-EU_R0603           R2                         
+3   47n       C-EUC0603K           C4, C6, C8                 
+1   68n       C-EUC0603K           C3                         
+1   91.201S   91.201S              K2                         
+3   100k      R-EU_R0603           R6, R11, R16               
+6   100n      C-EUC0603K           C1, C5, C9, C11, C14, C17  
+2   100p      C-EUC0603K           C15, C18                   
+4   270       R-EU_R0603           R20, R21, R22, R23         
+1   330       R-EU_R0603           R4                         
+4   680       R-EU_R1206           R8, R9, R17, R19           
+1   ATtiny861 ATTINY61TINY861-20SU U2                         
+1   AVR-ISP-6 AVR-ISP-6            JP1                        
+1   BAT54     DIODE-SOD123         D2                         
+2   BC848     BC848                T4, T5                     
+2   BC857C    BC857ALT1SMD         T1, T2                     
+1   FZTA14    FZTA14               T3                         
+1   GF1A      DIODE-DO214AA        D1                         
+1   GND-GNDA  GND-GNDA             ~NUDEV~                    
+1   GREEN     LEDH13X              LED1                       
+1   HAIS-50P  HAIS                 Q1                         
+1   MCP6001   OPA340N              U1                         
+1   MIC5205U  MIC5205U             U3                         
+1   ORANGE    LEDH13X              LED2                       
+1   RED       LEDH13X              LED3                       

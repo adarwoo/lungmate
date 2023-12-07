@@ -1,0 +1,103 @@
+<!DOCTYPE Project SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpj.dtd">
+<Project
+	Version="10.0"
+	VendorName="SlickEdit"
+	WorkingDir=".">
+	<Config
+		Name="Release"
+		OutputFile=""
+		CompilerConfigName="Latest Version">
+		<Menu>
+			<Target
+				Name="Compile"
+				MenuCaption="&amp;Compile"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveCurrent"
+				RunFromDir="%rw">
+				<Exec/>
+			</Target>
+			<Target
+				Name="Build"
+				MenuCaption="&amp;Build"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec/>
+			</Target>
+			<Target
+				Name="Rebuild"
+				MenuCaption="&amp;Rebuild"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveWorkspaceFiles"
+				RunFromDir="%rw">
+				<Exec/>
+			</Target>
+			<Target
+				Name="Debug"
+				MenuCaption="&amp;Debug"
+				SaveOption="SaveNone"
+				RunFromDir="%rw">
+				<Exec/>
+			</Target>
+			<Target
+				Name="Execute"
+				MenuCaption="E&amp;xecute"
+				SaveOption="SaveNone"
+				RunFromDir="%rw">
+				<Exec CmdLine='"wgx.exe"'/>
+			</Target>
+		</Menu>
+	</Config>
+	<Files>
+		<Folder
+			Name="Source Files"
+			Filters="*.c;*.C;*.cc;*.cpp;*.cp;*.cxx;*.prg;*.pas;*.dpr;*.asm;*.s;*.bas;*.java;*.cs;*.sc;*.e;*.cob;*.html;*.rc;*.tcl;*.py;*.pl">
+			<F N="../src/lib/adc.c"/>
+			<F N="../src/lib/console.c"/>
+			<F N="../src/lib/fft.c"/>
+			<F N="../src/lib/key.c"/>
+			<F N="../src/lib/nvParam.c"/>
+			<F N="../src/lib/simAdc.c"/>
+			<F N="../src/lib/simAvr.c"/>
+			<F N="../src/lib/simEeprom.c"/>
+			<F N="../src/lib/simUart.c"/>
+			<F N="../src/lib/twiddle.c"/>
+			<F N="../src/lib/uart.c"/>
+		</Folder>
+		<Folder
+			Name="Header Files"
+			Filters="*.h;*.H;*.hh;*.hpp;*.hxx;*.inc;*.sh;*.cpy;*.if">
+			<F N="../src/lib/adc.h"/>
+			<F N="../src/cfg/adcTestCfg.h"/>
+			<F N="../src/cfg/cfg.h"/>
+			<F N="../src/lib/console.h"/>
+			<F N="../src/lib/dbg.h"/>
+			<F N="../src/lib/fft.h"/>
+			<F N="../src/lib/key.h"/>
+			<F N="../src/cfg/lungmate.h"/>
+			<F N="../src/lib/nvParam.h"/>
+			<F N="../src/lib/test/nvParamDefs.h"/>
+			<F N="../src/cfg/nvParamTest.h"/>
+			<F N="../src/lib/simAvr.h"/>
+			<F N="../src/lib/uart.h"/>
+			<F N="../src/lib/wgx.h"/>
+		</Folder>
+		<Folder
+			Name="Unit tests"
+			Filters="">
+			<F N="../src/lib/test/testAdc.c"/>
+			<F N="../src/lib/test/testConsole.c"/>
+			<F N="../src/lib/test/testDbg.c"/>
+			<F N="../src/lib/test/testFFT.c"/>
+			<F N="../src/lib/test/testKey.c"/>
+			<F N="../src/lib/test/testParam.c"/>
+			<F N="../src/lib/test/testUart.c"/>
+		</Folder>
+		<F
+			N="../Makefile"
+			Type="Makefile"/>
+		<F
+			N="../src/lib/test/test.mak"
+			Type="Makefile"/>
+	</Files>
+</Project>
